@@ -19,3 +19,14 @@ end
 def using_concat(array, arrays)
   array.concat(arrays)
 end 
+def using_insert(array, element)
+  array.insert(element)
+end 
+def using_uniq(array)
+  array.using_uniq
+end 
+def using_flatten(array)
+  array.flatten
+end 
+def using_delete(array, string)
+  array.delete
